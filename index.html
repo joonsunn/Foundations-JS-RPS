@@ -7,8 +7,19 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <h1 style = "text-align: center">THIS GAME IS HELD WITHIN THE BROWSER CONSOLE. <br>Press Ctrl + Shift -> "Console" to access the outputs.</h1>
-    <button id="start" style="display:flex; flex-direction:row; justify-content:center; padding: 20px">Game Start (placeholder)</button>
+    <h1 style = "text-align: center">RPS</h1>
+    <div class="scorecard" style="display:flex; flex-direction:column; align-items:center">
+        <p id = "result">Start Game!</p>
+        <p id = "score">Current score: 0-0</p>
+
+    </div>
+    
+    <div class = "container" style="display:flex; flex-direction:row; justify-content:center; gap: 8px">
+        <button class = "selection" id="rock">ROCK</button>
+        <button class = "selection" id="paper">PAPER</button>
+        <button class = "selection" id="scissors">SCISSORS</button>
+    </div>
+    
 
 
     <script src="script.js"></script>
